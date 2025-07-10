@@ -1,0 +1,39 @@
+/* Navigation styles */
+.navigation{
+    display: flex;
+    gap: 1040px;
+    margin-top:50px ;
+   
+}
+.logo{
+    margin-left:150px ;
+    color: #4E47FF;
+    font-size: 34px;
+}
+.bnt-sign{margin-top: 35px;
+    font-size: 16px;
+    width: 132px;
+    height: 48px;
+    color:#FFFFFF ;
+    background-color: #4E47FF;
+border-radius: 10px;
+border: none;}
+/* Header-content */
+.header-title{font-size: 65px;
+    text-align: center;
+}
+.bnt-focused{
+    font-size: 16px;
+    width: 174px;
+    height: 48px;
+    margin-top: 37px;
+    display: block;
+    margin: 0 auto;
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border:none;
+}
+.title{
+    margin-top: 309px;
+}
