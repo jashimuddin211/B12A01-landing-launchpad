@@ -2,7 +2,7 @@
 .navigation{
     display: flex;
     gap: 1040px;
-    margin-top:50px ;
+    
    
 }
 .logo{
@@ -10,7 +10,7 @@
     color: #4E47FF;
     font-size: 34px;
 }
-.bnt-sign{margin-top: 35px;
+.bnt-sign{margin-top: 37px;
     font-size: 16px;
     width: 132px;
     height: 48px;
@@ -26,7 +26,7 @@ border: none;}
     font-size: 16px;
     width: 174px;
     height: 48px;
-    margin-top: 37px;
+    margin: top 37px; ;
     display: block;
     margin: 0 auto;
     background-color: #4E47FF;
@@ -37,3 +37,14 @@ border: none;}
 .title{
     margin-top: 309px;
 }
+header{
+    background-image:url(Assets/Hero-bg.png) ;
+    max-width: 1440px;
+    height: 698px;}
+    /* Main section */
+    .main-see{
+        display: flex;
+      
+    }
+    
+   
