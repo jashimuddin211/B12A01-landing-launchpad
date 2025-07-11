@@ -94,4 +94,22 @@ header{
     .sub-num{
         font-size: 20px;
     }
+    /* Review styles */
+.revi-title{
+    text-align: center;
+    font-size: 42px;
+
+}
+.revi-one{
+    box-shadow:#4E47FF;
+}
+.revi-container{
+display: flex;
+justify-content: space-evenly;
+}
+
+    .comment{
+        display: flex;
+        gap: 10px;
+    }
    
