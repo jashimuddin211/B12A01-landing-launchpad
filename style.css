@@ -69,5 +69,29 @@ header{
         height: 330px;
         border-radius: 50px;
     }
-    
+    /* Number styles */
+    .num-join{
+        background-color:#aaa8ec ; 
+        border-radius: 24px;
+        margin: 150px;
+        padding: 50px 150px;
+    }
+    .num-title{
+        text-align: center;
+        font-size: 38px;
+    }
+    .num-container{
+        display: flex;
+        justify-content:space-evenly
+    }
+    .num-content{
+        
+    }
+    .num{
+        font-size: 80px;
+        color: #4E47FF;
+    }
+    .sub-num{
+        font-size: 20px;
+    }
    
