@@ -1,7 +1,7 @@
 /* Navigation styles */
 .navigation{
     display: flex;
-    gap: 1040px;
+    justify-content: space-between;
     
    
 }
@@ -11,6 +11,7 @@
     font-size: 34px;
 }
 .bnt-sign{margin-top: 37px;
+    margin-right: 150px;
     font-size: 16px;
     width: 132px;
     height: 48px;
@@ -26,9 +27,10 @@ border: none;}
     font-size: 16px;
     width: 174px;
     height: 48px;
-    margin: top 37px; ;
+    margin: top ; 
+    margin-bottom: 150px;
     display: block;
-    margin: 0 auto;
+    margin: 0px auto;
     background-color: #4E47FF;
     color: #FFFFFF;
     border-radius: 10px;
@@ -39,12 +41,33 @@ border: none;}
 }
 header{
     background-image:url(Assets/Hero-bg.png) ;
-    max-width: 1440px;
-    height: 698px;}
+    max-width: px;
+    height: ;}
     /* Main section */
     .main-see{
         display: flex;
+        justify-content: space-between;
+        margin: 120px 150px;
       
+    }
+    .main-head{
+        font-size: 42px;
+    }
+    .main-para{
+        font-size: 24px;
+    }
+    .bnt-main{
+        width: 230px;
+        height: 48px;
+        background-color: #4E47FF;
+        color: #FFFFFF;
+        border-radius: 10px;
+        border: none;
+    }
+    .webflow{
+        width: 400px;
+        height: 330px;
+        border-radius: 50px;
     }
     
    
