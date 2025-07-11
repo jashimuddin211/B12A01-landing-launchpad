@@ -21,23 +21,24 @@ border-radius: 10px;
 border: none;}
 /* Header-content */
 .header-title{font-size: 65px;
-    text-align: center;
+    text-align: 
+    margin-top: 0px;
 }
 .bnt-focused{
     font-size: 16px;
     width: 174px;
     height: 48px;
-    margin: top ; 
+    margin:;
     margin-bottom: 150px;
-    display: block;
-    margin: 0px auto;
+    
+   
     background-color: #4E47FF;
     color: #FFFFFF;
     border-radius: 10px;
     border:none;
 }
 .title{
-    margin-top: 309px;
+    text-align: center;
 }
 header{
     background-image:url(Assets/Hero-bg.png) ;
@@ -71,7 +72,7 @@ header{
     }
     /* Number styles */
     .num-join{
-        background-color:#aaa8ec ; 
+        background-color:#c7c5f8 ; 
         border-radius: 24px;
         margin: 150px;
         padding: 50px 150px;
@@ -100,7 +101,8 @@ header{
     font-size: 42px;
 
 }
-.revi-one{
+.revi-one{box-shadow:0px 0px 15px 2px black  ;
+    padding:10px ;
    
 }
 .revi-container{
@@ -120,12 +122,17 @@ justify-content: space-evenly;
     justify-content: space-evenly
    }
    .form{
-    margin-top: 150px;
-    
-   }
-   .form-email{
-
-   }
+    margin-top: 100px;
+    }
+    .bnt-form{
+        width: 172px;
+        height: 30px;
+        background-color: #4E47FF;
+        color: #FFFFFF;
+        border-radius: 8px;
+        border: none;
+    }
+   
    /* footer styles */
    .footer-head{
     
@@ -134,10 +141,19 @@ justify-content: space-evenly;
    }
    .final-last a{
     margin-left: 20px;
+    text-decoration: none;
+    color: black;
    }
    footer{
     text-align: center;
    }
 
    /* shared bnt styles */
-   
+   button{
+    transition: all 0.3 ease;
+   }
+   button:hover{
+    transform: scale(1.1);
+    background-color: aqua;
+    color: blueviolet;
+   }
