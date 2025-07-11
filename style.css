@@ -101,7 +101,7 @@ header{
 
 }
 .revi-one{
-    box-shadow:#4E47FF;
+   
 }
 .revi-container{
 display: flex;
@@ -112,4 +112,32 @@ justify-content: space-evenly;
         display: flex;
         gap: 10px;
     }
+   /* Form styles */
+   .last-title{
+    font-size: 57px;
+   }
+   .let-container{display: flex;
+    justify-content: space-evenly
+   }
+   .form{
+    margin-top: 150px;
+    
+   }
+   .form-email{
+
+   }
+   /* footer styles */
+   .footer-head{
+    
+    font-size: 100px;
+    color:#4E47FF;
+   }
+   .final-last a{
+    margin-left: 20px;
+   }
+   footer{
+    text-align: center;
+   }
+
+   /* shared bnt styles */
    
